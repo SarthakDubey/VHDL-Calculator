@@ -1,0 +1,5 @@
+|display_calc
+inputs => ~NO_FANOUT~
+outputs << comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

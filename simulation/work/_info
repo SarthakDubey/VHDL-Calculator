@@ -1,0 +1,297 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera_lite/15.1
+Pcalc_const
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z2 w1453325127
+Z3 dD:/FPGA/Lab1/simulation
+Z4 8D:/FPGA/Lab1/calc_const.vhd
+Z5 FD:/FPGA/Lab1/calc_const.vhd
+l0
+L3
+V5l=nmL>:[<JEf;[9ghAJc1
+!s100 XX5agOZ;Z>bQk8c6Zfzbo3
+Z6 OV;C;10.4b;61
+32
+Z7 !s110 1453325213
+!i10b 1
+Z8 !s108 1453325213.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA/Lab1/calc_const.vhd|
+Z10 !s107 D:/FPGA/Lab1/calc_const.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Bbody
+Z13 DPx4 work 10 calc_const 0 22 5l=nmL>:[<JEf;[9ghAJc1
+R0
+R1
+l0
+L13
+VfLdeciJSmQj4FEYg0ESI30
+!s100 4I:LmS0m[^>:9T^:VPK]o2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Z14 nbody
+Ecalculator
+Z15 w1453325184
+R13
+Z16 DPx4 work 7 decoder 0 22 OFhT4zK7ZM1mjoUN^N]zN0
+Z17 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R0
+R1
+R3
+Z18 8D:/FPGA/Lab1/calculator.vhd
+Z19 FD:/FPGA/Lab1/calculator.vhd
+l0
+L9
+VL28[[hb]fGL9kY^Bd5NY_1
+!s100 59V:oGe1ZDT8;Ao>[g@[j2
+R6
+32
+R7
+!i10b 1
+R8
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA/Lab1/calculator.vhd|
+Z21 !s107 D:/FPGA/Lab1/calculator.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R13
+R16
+R17
+R0
+R1
+DEx4 work 10 calculator 0 22 L28[[hb]fGL9kY^Bd5NY_1
+l26
+L21
+VjNhRI79UK0];JWE<h3WM@3
+!s100 <m>H[jn4HhSg?;6NXUU<e0
+R6
+32
+R7
+!i10b 1
+R8
+R20
+R21
+!i113 1
+R11
+R12
+Pdecoder
+R0
+R1
+Z22 w1452721705
+R3
+Z23 8D:/FPGA/Lab1/decoder.vhd
+Z24 FD:/FPGA/Lab1/decoder.vhd
+l0
+L3
+VOFhT4zK7ZM1mjoUN^N]zN0
+!s100 gaD8Fam@TU1Y_?VQC7X@31
+R6
+32
+R7
+!i10b 1
+R8
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA/Lab1/decoder.vhd|
+Z26 !s107 D:/FPGA/Lab1/decoder.vhd|
+!i113 1
+R11
+R12
+Bbody
+R16
+R0
+R1
+l0
+L14
+V`>1i2afejm>Tj868HgK?91
+!s100 `n>okBH3d<A7<OMTO8U5T0
+R6
+32
+R7
+!i10b 1
+R8
+R25
+R26
+!i113 1
+R11
+R12
+R14
+Edisplay_calc
+Z27 w1452722760
+R0
+R1
+R3
+Z28 8D:/FPGA/Lab1/display_calc.vhd
+Z29 FD:/FPGA/Lab1/display_calc.vhd
+l0
+L5
+Vm_ikZM5HKSJ:VnJ@[k2^@0
+!s100 QZdcQA?oKA6o`1H>Uc_7Y3
+R6
+32
+R7
+!i10b 1
+R8
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA/Lab1/display_calc.vhd|
+Z31 !s107 D:/FPGA/Lab1/display_calc.vhd|
+!i113 1
+R11
+R12
+Astructural
+R0
+R1
+DEx4 work 12 display_calc 0 22 m_ikZM5HKSJ:VnJ@[k2^@0
+l14
+L12
+VP:[gdWlcDzgP]8aUQGG9L2
+!s100 Ke@gk5zmoKI7[GZ>dJdmj0
+R6
+32
+R7
+!i10b 1
+R8
+R30
+R31
+!i113 1
+R11
+R12
+Eexampleio
+Z32 w1453325032
+R17
+Z33 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R0
+R1
+R3
+Z34 8D:/FPGA/Lab1/calculator_tb.vhd
+Z35 FD:/FPGA/Lab1/calculator_tb.vhd
+l0
+L8
+V6kFM8GFjh7J0`JzRTQQFM2
+!s100 >z4PVF26ZOnPhhbiJ4``^3
+R6
+32
+Z36 !s110 1453325214
+!i10b 1
+Z37 !s108 1453325214.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA/Lab1/calculator_tb.vhd|
+Z39 !s107 D:/FPGA/Lab1/calculator_tb.vhd|
+!i113 1
+R11
+R12
+Ausingtextfiles
+R17
+R33
+R0
+R1
+Z40 DEx4 work 9 exampleio 0 22 6kFM8GFjh7J0`JzRTQQFM2
+l35
+L34
+Z41 V8^inIAJlP:Y11[g66lal]0
+Z42 !s100 H79`f^NW1SgKQh7Jm5WKO0
+R6
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R11
+R12
+Astandardio
+R17
+R33
+R0
+R1
+R40
+l12
+L11
+Z43 VPgd>K[NH?h^J8ATAOHSUC3
+Z44 !s100 ]XOmCE9QP;b9jc9g:2Se23
+R6
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R11
+R12
+Astdlogic
+R17
+R33
+R0
+R1
+R40
+l64
+L62
+V7UEPl6GCV4TXALKfbd;gC2
+!s100 H767OlZXT`cKaO@JMc4L<2
+R6
+32
+!s110 1453324853
+!i10b 1
+!s108 1453324853.000000
+R38
+R39
+!i113 1
+R11
+R12
+w1453324732
+Eleddcd
+Z45 w1452721310
+R0
+R1
+R3
+Z46 8D:/FPGA/Lab1/leddcd.vhd
+Z47 FD:/FPGA/Lab1/leddcd.vhd
+l0
+L5
+VYU67m3L6OXMh1SlK0DM=`2
+!s100 WA@^W>O9<Ha[flBSFTHAc1
+R6
+32
+R7
+!i10b 1
+R8
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/FPGA/Lab1/leddcd.vhd|
+Z49 !s107 D:/FPGA/Lab1/leddcd.vhd|
+!i113 1
+R11
+R12
+Adata_flow
+R0
+R1
+DEx4 work 6 leddcd 0 22 YU67m3L6OXMh1SlK0DM=`2
+l13
+L12
+VES6YO2P;7L0z0EZ9zQc`02
+!s100 AdlXM_m>[8Z9n0?bQOAB:3
+R6
+32
+R7
+!i10b 1
+R8
+R48
+R49
+!i113 1
+R11
+R12

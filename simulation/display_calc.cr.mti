@@ -1,0 +1,58 @@
+D:/FPGA/Lab1/calculator_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA/Lab1/calculator_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity exampleIO
+-- Compiling architecture standardIO of exampleIO
+-- Compiling architecture UsingTextFiles of exampleIO
+-- Loading entity exampleIO
+
+} {} {}} D:/FPGA/Lab1/display_calc.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA/Lab1/display_calc.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity display_calc
+-- Compiling architecture structural of display_calc
+
+} {} {}} D:/FPGA/Lab1/leddcd.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA/Lab1/leddcd.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity leddcd
+-- Compiling architecture data_flow of leddcd
+
+} {} {}} D:/FPGA/Lab1/calc_const.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA/Lab1/calc_const.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package calc_const
+-- Compiling package body calc_const
+-- Loading package calc_const
+
+} {} {}} D:/FPGA/Lab1/calculator.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA/Lab1/calculator.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package decoder
+-- Loading package calc_const
+-- Compiling entity calculator
+-- Compiling architecture behavioral of calculator
+
+} {} {}} D:/FPGA/Lab1/decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/FPGA/Lab1/decoder.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package decoder
+-- Compiling package body decoder
+-- Loading package decoder
+
+} {} {}}

@@ -1,0 +1,16 @@
+LIBRARY IEEE;
+
+USE IEEEE.std_logic_1164.all;
+
+ENTITY display_calc is
+	port(
+			inputs	: in std_logic;
+			outputs	: out std_logic
+			);
+END ENTITY display_calc;
+
+ARCHITECTURE structural of display_calc is
+
+BEGIN
+
+END ARCHITECTURE structural;

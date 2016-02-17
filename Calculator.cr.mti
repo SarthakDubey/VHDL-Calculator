@@ -1,0 +1,105 @@
+{F:/Quarter 2/ASIC and FPGA/Lab1/calc_const.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/Quarter 2/ASIC and FPGA/Lab1/calc_const.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package calc_const
+-- Compiling package body calc_const
+-- Loading package calc_const
+
+} {} {}} {F:/Quarter 2/ASIC and FPGA/Lab1/calculator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/Quarter 2/ASIC and FPGA/Lab1/calculator.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package decoder
+-- Loading package calc_const
+-- Compiling entity calculator
+-- Compiling architecture behavioral of calculator
+
+} {} {}} {F:/Quarter 2/ASIC and FPGA/Lab1/decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/Quarter 2/ASIC and FPGA/Lab1/decoder.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package decoder
+-- Compiling package body decoder
+-- Loading package decoder
+
+} {} {}} {F:/Quarter 2/ASIC and FPGA/Lab1/calculator_tb.vhd} {2 {vcom -work work -2002 -explicit -stats=none {F:/Quarter 2/ASIC and FPGA/Lab1/calculator_tb.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Loading package calc_const
+-- Compiling entity calculator_tb
+-- Compiling architecture UsingTextFiles of calculator_tb
+** Warning: F:/Quarter 2/ASIC and FPGA/Lab1/calculator_tb.vhd(59): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+
+** Warning: F:/Quarter 2/ASIC and FPGA/Lab1/calculator_tb.vhd(71): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+
+
+} {} {}} {F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd} {0 {vcom -work work -2002 -explicit -stats=none {F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package decoder
+-- Loading package calc_const
+-- Compiling entity display_calc
+-- Compiling architecture structural of display_calc
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(34): Labels do not match: 'ledlcd' and 'leddcd'.
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(40): near "out": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(43): (vcom-1136) Unknown identifier "line".
+
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(44): (vcom-1136) Unknown identifier "text".
+
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(44): FILE declaration must have a subtype indication that is a file type.
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(52): (vcom-1136) Unknown identifier "readline".
+
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(53): (vcom-1136) Unknown identifier "read".
+
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(54): (vcom-1136) Unknown identifier "readline".
+
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(55): (vcom-1136) Unknown identifier "read".
+
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(56): (vcom-1136) Unknown identifier "readline".
+
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(57): (vcom-1136) Unknown identifier "read".
+
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(68): Illegal sequential statement.
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(68): Signal "snum1" is type std.STANDARD.INTEGER; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(68): Signal "snum2" is type std.STANDARD.INTEGER; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(68): (vcom-1136) Unknown identifier "sgn".
+
+** Error: F:/Quarter 2/ASIC and FPGA/Lab1/display_calc.vhd(73): near "architecture": (vcom-1576) expecting PROCESS.
+
+
+} {11.0 13.0 14.0 15.0 16.0 17.0 18.0 20.0 21.0 22.0 23.0 24.0 25.0 26.0 27.0 28.0 29.0 30.0 31.0 35.0 36.0 37.0} {}} {F:/Quarter 2/ASIC and FPGA/Lab1/leddcd.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/Quarter 2/ASIC and FPGA/Lab1/leddcd.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity leddcd
+-- Compiling architecture data_flow of leddcd
+
+} {} {}} {F:/Quarter 2/ASIC and FPGA/Lab1/textIO_example.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/Quarter 2/ASIC and FPGA/Lab1/textIO_example.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity exampleIO
+-- Compiling architecture standardIO of exampleIO
+-- Compiling architecture UsingTextFiles of exampleIO
+-- Loading entity exampleIO
+-- Compiling architecture stdLogic of exampleIO
+-- Loading entity exampleIO
+
+} {} {}}
